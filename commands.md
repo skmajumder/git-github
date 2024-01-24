@@ -24,3 +24,6 @@
 3. git checkout .
 4. git status
 5. git restore --staged <file>
+6. git add <file>
+7. git add . [for all files]
+8. git commit -m "commit message"
