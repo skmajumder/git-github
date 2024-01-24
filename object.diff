@@ -1,0 +1,11 @@
+--- object-original.js	2024-01-22 16:53:13.462107200 +0600
++++ object-fixed.js	2024-01-22 16:48:50.487668500 +0600
+@@ -5,7 +5,7 @@
+   family: ["Alice", "Bob"],
+ };
+ 
+-const jessicaCopy = Object.assign({}, jessica);
++const jessicaCopy = structuredClone(jessica);
+ 
+ jessicaCopy.lastName = "Davis";
+ jessicaCopy.family.push("Mary");

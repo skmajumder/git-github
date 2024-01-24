@@ -1,0 +1,18 @@
+--- test4.js	2024-01-22 14:32:22.723593500 +0600
++++ test4-new.js	2024-01-22 14:28:46.504359700 +0600
+@@ -62,10 +62,11 @@
+ const capitalizationName = function (name) {
+   const names = name.split(" ");
+   const nameUpper = [];
+-  for (const word of names) {
++  names.map((word) => {
+     nameUpper.push(word.replace(word[0], word[0].toUpperCase()));
+-  }
+-  console.log(nameUpper.join(" "));
++  });
++  return nameUpper.join(" ");
+ };
+ 
+-capitalizationName("capitalization words");
++const newWord = capitalizationName("capitalization words");
++console.log(newWord);
