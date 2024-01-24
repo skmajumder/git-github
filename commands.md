@@ -15,7 +15,8 @@
 
 1. ls -la
 2. ls -l <fileName>/pathName
-3.
+3. ls -a
+
 
 ## Get last commit from git
 
