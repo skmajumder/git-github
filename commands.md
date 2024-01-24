@@ -28,3 +28,4 @@
 6. git add <file>
 7. git add . [for all files]
 8. git commit -m "commit message"
+9. git commit -a -m "commit message"
