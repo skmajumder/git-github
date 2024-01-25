@@ -42,3 +42,4 @@ n (no): Skip this change in the commit.
 s (split): Divide this change into smaller parts for more control.
 e (edit): Manually edit the change.
    )
+17. git rm <file>
