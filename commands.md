@@ -13,13 +13,13 @@
 7. patch <file1> < <fileName.diff>
 8. patch --ignore-whitespace <file1> < <fileName.diff>
 
-## Git commands
+## Git file commands
 
 1. ls -la
 2. ls -l <fileName>/pathName
 3. ls -a
 
-## Get last commit from git
+## Get commans
 
 1. git status
 2. git reset --hard HEAD
@@ -43,3 +43,4 @@ s (split): Divide this change into smaller parts for more control.
 e (edit): Manually edit the change.
    )
 17. git rm <file>
+18. git mv <file> <fileNewName>
